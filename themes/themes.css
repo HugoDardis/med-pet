@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 90px;
+  background-color: hotpink;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+/* LAYOUT */
+
+.flex {
+  display: flex;
+  padding: 10px;
+}
+
+.aitems-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.f-start {
+  justify-content: flex-start;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* COLORS */
+.black {
+  color: #000000;
+}
+.white {
+  color: #FFFFFF;
+}
+.black-200 {
+  color: #1B2029;
+}
+.black-300 {
+  color: #212B30;
+}
+.gray-100 {
+  color: #66808F;
+}
+.gray-200 {
+  color: #C3CFD5;
+}
+.primary-color {
+  color: #7A48EB;
+}
+
+/* FONTS AND TEXTS */
+.primary-font {
+  font-family: 'Luckiest Guy', Georgia, 'Times New Roman', Times, serif;
+}
+.secondary-font {
+  font-family: 'Roboto', sans-serif;
+}
+.text-header {
+  font-family: 'Luckiest Guy', Georgia, 'Times New Roman', Times, serif;
+  color: #7A48EB;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 82px;
+  line-height: 82px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.065em;
+  text-shadow: -6px 5px 4px rgba(216, 216, 216, 0.25);
+}
+.secundary-text{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 127%;
+  color: #7A48EB;
+  padding: 0 8px 0 0;
+}
+.normal-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #212B30;
+}
+.rectangle-7 {
+  background-color: #7A48EB;
+  width: 311px;
+  height: 7px; 
+  border-radius: 6px;
+  margin-top: 19px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #00567A;
+}
+
+/* BACKGROUND STYLES */
+.bg-forms {
+  background: #FFFFFF;
+  box-shadow: 0px 120px 120px rgba(45, 63, 89, 0.04), 0px 64px 64px rgba(41, 58, 82, 0.06), 0px 32px 32px rgba(22, 34, 51, 0.02), 0px 24px 24px rgba(22, 34, 51, 0.02), 0px 4px 24px rgba(22, 34, 51, 0.02), 0px 4px 4px rgba(22, 34, 51, 0.02);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/* SPACE */
+/* padding */
+.p-5821 {
+  padding: 58px 21px;
+}
+/* margim */
+.m-1 {
+  margin: 15px 5px;
+}
+
+/* margin right */
+.mr-5 {
+  margin-right: 5px;
+}
+
+/* margim bottom */
+.mb-22 {
+  margin-bottom: 22px;
+}
