@@ -132,15 +132,20 @@
   text-align: center;
 }*/
 
-/* .r-logo {
-
-} */
+.r-logo {
+  position: relative;
+  right: 24.32%;
+  top: 33.6%;
+}
 
 /* SPACE */
 /* padding */
 .p-5821 {
   padding: 58px 21px;
 }
+/*.p-0 {
+  padding: 0;
+}*/
 /* margim */
 .m-1 {
   margin: 15px 5px;
@@ -177,6 +182,7 @@
   line-height: 24px;
 }
 .button-cancel {
+
   border: none;
   text-decoration: underline;
   font-weight: bold;

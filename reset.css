@@ -19,7 +19,6 @@ body {
 }
 
 main {
-  height: 100%;
   padding: 22px;
   background: #1B2029;
 }
@@ -32,6 +31,7 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 
 input,
 button,
@@ -68,7 +68,9 @@ label {
   color: #212B30;
 }
 
-input[type="text"i] {
+input[type="text" i],
+input[type="number" i],
+input[type="email" i] {
   height: 48px;
   background: #FFFFFF;
   border: 1px solid #C3CFD5;
@@ -88,3 +90,4 @@ input[type="checkbox"i] {
   height: 24px;
   border-radius: 2px;
 }
+
