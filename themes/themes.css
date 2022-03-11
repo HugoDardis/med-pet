@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 25px 90px;
-  background-color: hotpink;
+  background-color: rgb(4, 247, 65);
 }
 
 .w-100 {
@@ -39,7 +39,6 @@
 }
 
 .center {
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
@@ -86,6 +85,7 @@
   align-items: center;
   letter-spacing: 0.065em;
   text-shadow: -6px 5px 4px rgba(216, 216, 216, 0.25);
+  background: #1B2029;
 }
 .secundary-text{
   font-family: 'Roboto', sans-serif;
@@ -126,6 +126,15 @@
   border-radius: 20px;
   padding: 40px;
 }
+/* .r-header { 
+  background: #1B2029;
+  width: 100%;
+  text-align: center;
+}*/
+
+/* .r-logo {
+
+} */
 
 /* SPACE */
 /* padding */
@@ -145,4 +154,42 @@
 /* margim bottom */
 .mb-22 {
   margin-bottom: 22px;
+}
+
+/* BUTTONS */
+
+.button-black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 48px;
+  background: #000000;
+  border-radius: 8px;
+  border-color: #000000;
+}
+.button-black a {
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-cancel {
+  border: none;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.button-cancel a{
+  color: #000000;
+  font-weight: bold;
+}
+
+.button-purple {
+  background: #7A48EB;
+  width: auto;
+  height: auto;
+  border-radius: 1px;
+  border-color: #000000;
 }
