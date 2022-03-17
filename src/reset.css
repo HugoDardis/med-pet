@@ -16,11 +16,14 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  padding: 22px;
+  background: #1B2029;
 }
 
 main {
-  padding: 22px;
-  background: #1B2029;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 img,
