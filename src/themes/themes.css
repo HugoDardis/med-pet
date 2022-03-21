@@ -68,10 +68,10 @@
 
 /* FONTS AND TEXTS */
 .primary-font {
-  font-family: 'Luckiest Guy', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Luckiest Guy', Georgia, 'Times New Roman', Times, serif, url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@300&display=swap');
 }
 .secondary-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif, url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@300&display=swap');
 }
 .text-header {
   font-family: 'Luckiest Guy', Georgia, 'Times New Roman', Times, serif;
@@ -152,6 +152,10 @@
 
 /* SPACE */
 /* padding */
+.p-22 {
+  padding: 22px;
+}
+
 .p-5821 {
   padding: 58px 21px;
 }
