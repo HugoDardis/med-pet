@@ -67,12 +67,11 @@ label {
   font-weight: normal;
   font-size: 14px;
   line-height: 150%;
-  color: #212B30;
 }
 
 input[type="text" i],
 input[type="number" i],
-input[type="email" i] {
+input[type="email"] {
   height: 48px;
   background: #FFFFFF;
   border: 1px solid #C3CFD5;
